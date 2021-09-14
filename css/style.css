@@ -4,15 +4,46 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
 /*****************
     UTILITY RULES
 *******************/
 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
+.header ul{
+    list-style-type: none;
+}
 
+.header a{
+    text-decoration: none;    
+    font-size: 1rem;
+    color: #1C1C1C;
+    font-weight: bold;
+}
 
+.header li{
+    display: inline-block;
+    padding: 0 25px;
+}
 
+.btn_header{
+    padding: 8px 20px;
+}
+
+.btn{
+    color: white;
+    background-color: #0061FF;
+    border: none;
+}
 
 
 
@@ -22,4 +53,59 @@
 /*****************
     HEADER
 ******************/
+.nav{
+    position: relative;
+}
 
+.header{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+}
+
+.dropbox{
+    float: left;
+    width: 5%;
+    padding-top: 5px;
+    margin: 0 20px;
+}
+
+.funzioni{
+    float: left;
+    width: 35%;
+    text-align: left;
+}
+
+.supporto{
+    float: left;
+    width: 35%;
+    text-align: right;
+}
+
+.inizia{
+    float: left;
+    width: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************
+    DEBUG
+******************/
+
+.header{
+    
+}
