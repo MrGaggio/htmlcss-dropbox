@@ -56,6 +56,16 @@ h1{
     margin: 25px 0;
 }
 
+.piani_business p{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.container h2{
+    font-size: 3.7rem;
+    padding-bottom: 50px;
+}
+
 
 
 
@@ -108,7 +118,7 @@ h1{
 
 
 /*****************
-    MAIN
+ SECTION  JUMBO
 ******************/
 
 main{
@@ -117,11 +127,12 @@ main{
 
 #site_main{
     background-color: #B4D0E7;
+    margin-bottom: 200px;
 }
 
 .main_container{
     padding-bottom: 500px;
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -134,7 +145,7 @@ main{
 .main_dx{
     position: relative;
     float: left;
-    width: 50%;
+    width: 70%;
     padding-top: 40px;
     padding-left: 100px;
 }
@@ -146,6 +157,15 @@ main{
 }
 
 
+/**********************
+SECTION PIANI_BUSINESS
+***********************/
+
+.container{
+    width: 60%;
+    margin: auto;
+
+}
 
 
 
