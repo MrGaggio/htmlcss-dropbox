@@ -266,6 +266,18 @@ Entra in contatto
     margin-bottom: 20px;
 }
 
+.colonna_verx{
+    float: left;
+    width: 100%;
+    height: 300px;
+    line-height: 50px;
+    margin-bottom: 300px;
+}
+
+.colonna_verx h3{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
 
 
 
