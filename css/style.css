@@ -51,14 +51,14 @@ p{
     padding: 8px 20px;
 }
 
-.btn{
+
+a.btn{
     color: white;
-    background-color: #0061FF;
-    border: none;
-    padding: 8px 20px;
-    width: 300px;
-    text-align: center;
-    
+    text-decoration: none;
+    background:#0061ff ;
+    padding: 10px 70px;
+    outline: none;
+    margin-top: ;
 }
 
 
@@ -177,6 +177,7 @@ SECTION PIANI_BUSINESS
     width: 25%;
     border: 1px solid #D0D0D3;
     margin-right: 59px;
+    line-height: 50px;
 }
 
 
@@ -194,14 +195,9 @@ SECTION PIANI_BUSINESS
 }
 
 
-.piani{
+.planes{
     padding: 50px;
-    line-height: 45px;
-    
 }
-
-
-
 
 
 /*****************
