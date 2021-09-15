@@ -199,6 +199,7 @@ SECTION PIANI_BUSINESS
     height: 300px;
     border: 1px solid #D0D0D3;
     line-height: 50px;
+    margin-bottom: 300px;
 }
 
 .colonna_vert .btn{
