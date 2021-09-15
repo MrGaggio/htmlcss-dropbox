@@ -12,6 +12,9 @@ h1{
     font-size: 7rem;
 }
 
+p{
+    color: #637381;
+}
 
 
 /*****************
@@ -53,19 +56,20 @@ h1{
     background-color: #0061FF;
     border: none;
     padding: 8px 20px;
-    margin: 25px 0;
+    width: 300px;
+    text-align: center;
+    
 }
 
-.piani_business p{
-    display: inline-block;
-    padding: 0 10px;
-}
 
 .container h2{
     font-size: 3.7rem;
     padding-bottom: 50px;
 }
 
+.far, .fas {
+    padding-right: 10px;  
+}
 
 
 
@@ -171,21 +175,30 @@ SECTION PIANI_BUSINESS
 .colonna{
     float: left;
     width: 25%;
-    height: 500px;
     border: 1px solid #D0D0D3;
     margin-right: 59px;
 }
 
+
 .singolo{
     width: 100%;
-    height: 30px;
-    line-height: 30px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
+    margin: 5px 0;
+    border-bottom: 1px solid #D0D0D3;
+}
 
+.user{
+    padding-right: 8px;
 }
 
 
-
+.piani{
+    padding: 50px;
+    line-height: 45px;
+    
+}
 
 
 
@@ -195,6 +208,3 @@ SECTION PIANI_BUSINESS
     DEBUG
 ******************/
 
-.header{
-    
-}
