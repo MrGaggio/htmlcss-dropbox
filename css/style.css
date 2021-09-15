@@ -58,7 +58,6 @@ a.btn{
     background:#0061ff ;
     padding: 10px 70px;
     outline: none;
-    margin-top: ;
 }
 
 
@@ -174,12 +173,10 @@ SECTION PIANI_BUSINESS
 }
 .colonna{
     float: left;
-    width: 25%;
+    width: 33%;
     border: 1px solid #D0D0D3;
-    margin-right: 59px;
     line-height: 50px;
 }
-
 
 .singolo{
     width: 100%;
