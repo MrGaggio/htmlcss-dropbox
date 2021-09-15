@@ -61,6 +61,16 @@ a.btn{
     display: inline-block;
 }
 
+a.btn2{
+    color: #637381;
+    border: 1px solid #637381;
+    text-decoration: none;
+    background:white;
+    padding: 13px 35px;
+    outline: none;
+    display: inline-block;
+}
+
 .container h2{
     font-size: 3.7rem;
     padding-bottom: 50px;
@@ -161,7 +171,7 @@ main{
 SECTION PIANI_BUSINESS
 ***********************/
 
-.container{
+.container60{
     width: 60%;
     margin: auto;
 }
@@ -208,7 +218,72 @@ SECTION PIANI_BUSINESS
 }
 
 
+
+
+/**********************
+Entra in contatto
+***********************/
+
+
+
+.col50{
+    float: left;
+    width: 50%;
+    padding: 0px 30px;
+    margin: 30px 0;
+}
+
+.col30{
+    float: left;
+    width: 40%;
+    padding: 20px 60px;
+    margin: 30px 0;
+}
+
+.partner{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*****************
     DEBUG
 ******************/
+.debug.container60{
+    background-color: black;
+    height: 400px;
+    
+}
+
+.debug .col50x{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: green;
+}
+
+.debug .container60 .col33{
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color: greenyellow;
+}
+
+.debug .row{
+    margin: 50px 0;
+    
+}
 
