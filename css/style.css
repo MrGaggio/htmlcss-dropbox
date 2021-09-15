@@ -229,7 +229,6 @@ Entra in contatto
 .col50{
     float: left;
     width: 50%;
-    padding: 0px 30px;
     margin: 30px 0;
 }
 
@@ -245,7 +244,27 @@ Entra in contatto
     height: auto;
 }
 
+.container60 h2{
+    font-size: 3.5rem;
+    margin: 80px 0;
+}
 
+.col33{
+    float: left;
+    width: 30%;
+    height: 700px;
+    
+}
+
+.img33{
+    width: 100%;
+    height: auto;
+}
+
+.row h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
 
 
