@@ -197,7 +197,7 @@ height: auto;
 }
 
 #piani:hover{
-    cursor: pointer;
+    
     scroll-behavior: smooth;
 }
 
