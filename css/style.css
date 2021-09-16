@@ -411,14 +411,24 @@ QUADRATI "DESIGNIT"
 }
 
 
+/*****************
+DOMANDE FREQUENTI
+******************/
+
+.domande{
+    width: 100%;
+}
 
 
+.domande hr{
+    width: 100%;
+    margin: 2.5rem 0;
+    border: solid 1px #DEDEE0;
+}
 
-
-
-
-
-
+.arrow_down{
+    margin-left: 800px;
+}
 
 
 
