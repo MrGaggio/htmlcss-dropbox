@@ -181,12 +181,10 @@ main{
 .main_sx{
     float: left;
     width: 25%;
-    padding-top: 40px;
-   
+    padding-top: 40px; 
 }
 
 .main_dx{
-   
     float: left;
     width: 70%;
     padding-top: 40px;
@@ -196,7 +194,11 @@ main{
 .jumbo{
 width: 100%;
 height: auto;
-    
+}
+
+#piani:hover{
+    cursor: pointer;
+    scroll-behavior: smooth;
 }
 
 
@@ -207,6 +209,7 @@ SECTION PIANI_BUSINESS
 .container60{
     width: 60%;
     margin: auto;
+    
 }
 
 .fatturazione{
@@ -252,7 +255,10 @@ SECTION PIANI_BUSINESS
 .cerchio_blu{
     color:#0061ff ;
     font-weight: bold;
-    
+}
+
+.cerchio_blu{
+    cursor: pointer;
 }
 
 
@@ -313,6 +319,10 @@ Entra in contatto
 .colonna_verx h3{
     font-size: 2.5rem;
     margin-bottom: 30px;
+}
+
+.btn2:hover{
+    background-color:rgb(223, 228, 235);
 }
 
 /*****************
@@ -418,6 +428,10 @@ QUADRATI "DESIGNIT"
         padding: 0 80px; 
     }
 
+    .btn3:hover{
+        background-color:rgb(223, 228, 235);
+    }
+
 .square_logo{
     position: absolute;
     width: 40%;
@@ -493,6 +507,14 @@ DOMANDE FREQUENTI
     color: grey;
 }
 
+#site_footer li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.submenu:hover{
+    cursor: pointer;
+}
 
 
 
