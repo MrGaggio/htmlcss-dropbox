@@ -11,11 +11,9 @@ body{
 
 h1{
     font-size: 7rem;
+    margin-bottom: 2rem;
 }
 
-p{
-    color: #637381;
-}
 
 
 /*****************
@@ -49,7 +47,35 @@ ul{
     color: white;
     background-color: #0061FF;
     border: none;
-    padding: 8px 20px;
+    padding: 11px 44px;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    margin: 2rem 0 1rem;
+}
+
+#site_header .inizia{
+    color: white;
+    background-color: #0061FF;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 7px 20px;
+}
+
+#site_header .btn1{
+    color: white;
+    background-color: #0061FF;
+    border: none;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    height: 60px;
+    width: 60px;
+
+}
+.arrow{
+    font-size: 2.5rem;
 }
 
 
@@ -117,15 +143,10 @@ a.btn2{
 
 .supporto{
     float: left;
-    width: 45%;
+    width: 48%;
     text-align: right;
 }
 
-.inizia{
-    float: left;
-    width: 3%;
-    text-align: right;
-}
 
 
 /*****************
@@ -138,11 +159,13 @@ main{
 
 #site_main{
     background-color: #B4D0E7;
-    margin-bottom: 400px;
+    height: 1050px;
+    margin-bottom: 200px;
 }
 
 .main_container{
     padding-bottom: 500px;
+    padding-top: 5rem;
     width: 75%;
     margin: auto;
 }
@@ -151,10 +174,11 @@ main{
     float: left;
     width: 25%;
     padding-top: 40px;
+   
 }
 
 .main_dx{
-    position: relative;
+   
     float: left;
     width: 70%;
     padding-top: 40px;
@@ -162,9 +186,9 @@ main{
 }
 
 .jumbo{
-    height: 800px;
-    width: auto;
-    position: absolute;
+width: 100%;
+height: auto;
+    
 }
 
 
@@ -215,10 +239,12 @@ SECTION PIANI_BUSINESS
 
 .colonna_vert .btn{
     margin-left: 1010px;
-    
 }
 
-
+.cerchio_blu{
+    height: 3;
+    color:#0061ff ;
+}
 
 
 /**********************
