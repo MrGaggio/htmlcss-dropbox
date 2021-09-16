@@ -196,11 +196,14 @@ width: 100%;
 height: auto;
 }
 
-#piani:hover{
-    
+#piani{
+    cursor: pointer;
     scroll-behavior: smooth;
 }
 
+.arrow{
+    color: black;
+}
 
 /**********************
 SECTION PIANI_BUSINESS
