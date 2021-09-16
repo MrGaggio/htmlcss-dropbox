@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Open Sans',sans-serif;
+    min-width: 1440px;
 }
 
 h1{
@@ -308,31 +309,31 @@ QUADRATI "DESIGNIT"
 
 
 .square2{
-    background-color: brown;
+    background-color:#61082B;
 }
 
 .square3{
-    background-color: lightblue;
+    background-color:#0093CE;
 }
 
 .square4{
-    background-color: red;
+    background-color: #FF1C1C;
 }
 
 .square5{
-    background-color: #D0E9CD ;
+    background-color: #D5001F ;
 }
 
 .square6{
-    background-color: brown;
+    background-color: #B4D0E7;
 }
 
 .square7{
-    background-color: lightblue;
+    background-color: #0D2481;
 }
 
 .square8{
-    background-color: red;
+    background-color: #FFD830;
 }
 
 
@@ -340,7 +341,8 @@ QUADRATI "DESIGNIT"
     float: left;
     width: 40%;
     height: 600px;
-    background-color: lightgray;
+    background-color: #F5F5F5;
+    padding: 3.5rem;
 }
 
 .container_square4{
@@ -349,28 +351,40 @@ QUADRATI "DESIGNIT"
     height: 600px;
 }
 
-.colonna_vert{
+.colonna_verticale{
         float: left;
         width: 100%;
-        height: 300px;
+        height: 350px;
         line-height: 50px;
         margin-bottom: 300px;
-        background-color: lightskyblue;
+        background-color: #B4D0E7;
     }
 
 .square_logo{
     position: absolute;
-    width: 50%;
+    width: 40%;
     height: auto;
     color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    
+    filter: invert(100);
 }
 
+.square_logox{
+    width: 20%;
+    height: auto;
+}
 
+.container_designit hr{
+    width: 10%;
+    margin: 3rem 0;
+    border: solid 1px #DEDEE0;
+}
+
+.container_designit h3{
+    margin-bottom: 5rem;
+}
 
 
 
