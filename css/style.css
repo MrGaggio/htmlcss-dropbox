@@ -256,7 +256,7 @@ SECTION PIANI_BUSINESS
     float: left;
     width: 100%;
     border: 1px solid #D0D0D3;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 .cards{
@@ -357,13 +357,13 @@ QUADRATI "DESIGNIT"
 
 .container100 {
     width: 100%;
-    height: 1000px;
+
 }
 
 .container_square4 {
     float: left;
     width: 30%;
-    height: 600px;
+    height: 6
 }
 
 .square1,
@@ -437,12 +437,26 @@ QUADRATI "DESIGNIT"
     background-color: #B4D0E7;
 }
 
-.busines,
+
+
+.business,
 .prova {
     float: left;
-    width: 50%;
-    padding: 8rem 21rem;
+    width: 50%;  
+    height: auto;
+
 }
+
+.business{
+    padding-left: 400px;
+    padding-top: 180px;
+}
+
+.prova{
+    padding-top: 180px;
+    padding-left: 450px;
+}
+
 
 .colonna_verticale h2 {
     float: left;
